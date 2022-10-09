@@ -1,0 +1,131 @@
+body {
+  height: 100%;
+}
+
+.wrapper {
+  height: 100%;
+  margin: 25px;
+}
+
+.grid {
+  width: 100%;
+  height: 100%;
+  display: grid;
+  grid-template-columns: 166px 1fr;
+  grid-template-rows:66px 1fr;
+  gap: 42px;
+  grid-template-areas:
+    'header header'
+    'sidebar  content'
+}
+
+.header {
+  grid-area: header;
+}
+
+.aside {
+  grid-area: sidebar;
+}
+
+.main {
+  grid-area: content;
+}
+
+
+.header {
+  background-color: lightcoral;
+  border: 5px solid red;
+  height: 66px;
+}
+
+.sidebar {
+  background-color: beige;
+  border: 5px solid burlywood;
+}
+
+.main {
+  background-color: lightblue;
+  border: 5px solid teal;
+}
+
+.main-wrapper {
+  display: grid;
+  grid-template-columns: 713px 1fr;
+  grid-template-rows: 538px 1fr 1fr;
+  gap: 42px;
+  grid-template-areas:
+  'discover-world features-place'
+  'event-timeline place-brick-list'
+  'tours-bar place-brick-list'
+}
+
+.discover-world {
+  grid-area: discover-world;
+}
+
+.features-place {
+grid-area: features-place;
+}
+
+.event-timeline {
+  grid-area: event-timeline;
+}
+
+.place-brick-list {
+  grid-area: place-brick-list;
+}
+
+.tours-bar {
+grid-area: tours-bar;
+}
+
+.main .discover-world {
+  background-color: #fff;
+}
+
+.main .event-timeline {
+  height: 201px;
+  background-color: green;
+}
+
+.main .tours-bar {
+  height: 119px;
+  background-color: pink;
+}
+
+.main .features-place {
+  background-color: yellow;
+}
+
+.main .place-brick-list {
+  height: 360px;
+  background-color: burlywood;
+}
+
+@media (max-width: 944px) {
+  .main-wrapper {
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 539px 201px 518px 119px;
+  gap: 42px;
+  grid-template-areas:
+  'discover-world discover-world'
+  'event-timeline event-timeline'
+  'features-place place-brick-list'
+  'tours-bar tours-bar'
+  }
+}
+
+@media (max-width: 698px) {
+  .main-wrapper {
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr ;
+    gap: 42px;
+    grid-template-areas:
+    'discover-world'
+    'event-timeline'
+    'features-place'
+    'place-brick-list'
+    'tours-bar'
+    }
+}
+
