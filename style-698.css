@@ -1,0 +1,13 @@
+@media (max-width: 698px) {
+  .main-wrapper {
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    gap: 42px;
+    grid-template-areas:
+      'discover-world'
+      'event-timeline'
+      'features-place'
+      'place-brick-list'
+      'tours-bar'
+  }
+}

@@ -59,7 +59,6 @@ body {
   grid-area: content;
 }
 
-
 .header {
   height: 66px;
   display: flex;
@@ -196,12 +195,12 @@ body {
 }
 
 .discover-world .column h2 {
-  font-family: 'Baloo 2';
+  font-family: var(--color);
   font-style: normal;
   font-weight: 600;
   font-size: 30px;
   line-height: 48px;
-  color: #18333E;
+  color: var(--color);
   margin: 0;
   padding-bottom: 17px;
 }
@@ -213,12 +212,12 @@ body {
 }
 
 .discover-world .choice p {
-  font-family: 'Baloo 2';
+  font-family: var(--serif);
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
   line-height: 26px;
-  color: #18333E;
+  color: var(--color);
   margin: 0;
   opacity: 0.7;
 }
@@ -253,13 +252,13 @@ body {
 }
 
 .discover-world .game h3 {
-  font-family: 'Baloo 2';
+  font-family: var(--serif);
   font-style: normal;
   font-weight: 500;
   font-size: 22px;
   line-height: 35px;
   margin: 0;
-  color: #18333E;
+  color: var(--color);
   padding-top: 15px;
   padding-bottom: 7px;
 }
@@ -270,19 +269,17 @@ body {
 }
 
 .discover-world .row p {
-  font-family: 'Baloo 2';
+  font-family: var(--serif);
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 26px;
-  color: #18333E;
+  color: var(--color);
   margin: 0;
   margin-right: 20px;
   margin-left: 10px;
   opacity: 0.8;
 }
-
-
 
 .main .tours-bar {
   height: 119px;
@@ -299,7 +296,7 @@ body {
   align-items: center;
   width: 390px;
   padding: 11px 23px;
-  background-color: #18333E;
+  background-color: var(--color);
   border-radius: 25px;
 }
 
@@ -309,7 +306,7 @@ body {
 }
 
 .tours-bar .names p {
-  font-family: 'Baloo 2';
+  font-family: var(--serif);
   font-style: normal;
   font-weight: 500;
   font-size: 18px;
@@ -363,7 +360,6 @@ body {
   z-index: -1;
 }
 
-
 .event-timeline {
   height: 201px;
 }
@@ -377,23 +373,23 @@ body {
 }
 
 .event-timeline .event h3 {
-  font-family: 'Baloo 2';
+  font-family: var(--serif);
   font-style: normal;
   font-weight: 600;
   font-size: 30px;
   line-height: 48px;
-  color: #18333E;
+  color: var(--color);
   margin: 0;
 }
 
 .event-timeline .event p {
   margin: 0;
-  font-family: 'Baloo 2';
+  font-family: var(--serif);
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 26px;
-  color: #18333E;
+  color: var(--color);
   padding: 12px 31px 10px;
   border: 1px solid #B4BCC4;
   border-radius: 24px;
@@ -409,17 +405,17 @@ body {
 }
 
 .event-timeline .date:hover {
-  background-color: #18333E;
+  background-color: var(--color);
   border-radius: 32px;
 }
 
 .event-timeline .date p {
-  font-family: 'Baloo 2';
+  font-family: var(--serif);
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
   line-height: 26px;
-  color: #18333E;
+  color: var(--color);
   margin: 0;
   opacity: 0.7;
   padding-bottom: 10px;
@@ -431,12 +427,12 @@ body {
 }
 
 .event-timeline .date h4 {
-  font-family: 'Baloo 2';
+  font-family: var(--serif);
   font-style: normal;
   font-weight: 500;
   font-size: 25px;
   line-height: 40px;
-  color: #18333E;
+  color: var(--color);
   margin: 0;
 }
 
@@ -486,7 +482,7 @@ body {
   font-weight: 600;
   font-size: 30px;
   line-height: 48px;
-  color: #18333E;
+  color: var(--color);
   margin: 0;
 }
 
@@ -496,7 +492,7 @@ body {
   font-weight: 400;
   font-size: 16px;
   line-height: 26px;
-  color: #18333E;
+  color: var(--color);
   max-width: 337px;
   opacity: 0.7;
 }
@@ -509,34 +505,34 @@ body {
 }
 
 .features-place .price p:first-child {
-  font-family: 'Baloo 2';
+  font-family: var(--serif);
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
   line-height: 26px;
-  color: #18333E;
+  color: var(--color);
   margin: 0;
 }
 
 .features-place .price p:last-child {
-  font-family: 'Baloo 2';
+  font-family: var(--serif);
   font-style: normal;
   font-weight: 600;
   font-size: 40px;
   line-height: 54px;
-  color: #18333E;
+  color: var(--color);
   margin: 0;
 }
 
 .features-place button {
-  font-family: 'Baloo 2';
+  font-family: var(--serif);
   font-style: normal;
   font-weight: 700;
   font-size: 18px;
   line-height: 29px;
   color: #FFFFFF;
   padding: 16px 40px 17px 39px;
-  background-color: #18333E;
+  background-color: var(--color);
   border-radius: 30.5px;
 }
 
@@ -566,12 +562,12 @@ body {
 }
 
 .place-brick-list .travel h3 {
-  font-family: 'Baloo 2';
+  font-family: var(--serif);
   font-style: normal;
   font-weight: 500;
   font-size: 22px;
   line-height: 35px;
-  color: #18333E;
+  color: var(--color);
   margin: 0;
   padding-bottom: 4px;
 }
@@ -583,12 +579,12 @@ body {
 
 .place-brick-list .location p {
   padding-left: 7px;
-  font-family: 'Baloo 2';
+  font-family: var(--serif);
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 26px;
-  color: #18333E;
+  color: var(--color);
   opacity: 0.7;
   margin: 0;
 }
@@ -599,40 +595,4 @@ body {
   background: #E9F1FA;
   backdrop-filter: blur(2px);
   margin-left: 53px;
-}
-
-
-
-
-
-
-
-
-
-
-@media (max-width: 944px) {
-  .main-wrapper {
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 539px 201px 518px 119px;
-    gap: 42px;
-    grid-template-areas:
-      'discover-world discover-world'
-      'event-timeline event-timeline'
-      'features-place place-brick-list'
-      'tours-bar tours-bar'
-  }
-}
-
-@media (max-width: 698px) {
-  .main-wrapper {
-    grid-template-columns: 1fr;
-    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
-    gap: 42px;
-    grid-template-areas:
-      'discover-world'
-      'event-timeline'
-      'features-place'
-      'place-brick-list'
-      'tours-bar'
-  }
 }
