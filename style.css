@@ -220,6 +220,7 @@ body {
   line-height: 26px;
   color: #18333E;
   margin: 0;
+  opacity: 0.7;
 }
 
 .discover-world .games {
@@ -278,13 +279,88 @@ body {
   margin: 0;
   margin-right: 20px;
   margin-left: 10px;
+  opacity: 0.8;
 }
 
 
 
 .main .tours-bar {
   height: 119px;
-  background-color: pink;
+}
+
+.tours-bar .tours {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.tours-bar .tour {
+  display: flex;
+  align-items: center;
+  width: 390px;
+  padding: 11px 23px;
+  background-color: #18333E;
+  border-radius: 25px;
+}
+
+.tours-bar .names {
+  padding-left: 25px;
+  padding-right: 68px;
+}
+
+.tours-bar .names p {
+  font-family: 'Baloo 2';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 29px;
+  margin: 0;
+  color: #FFFFFF;
+}
+
+.tours-bar .star {
+  display: flex;
+  align-items: center;
+}
+
+.tours-bar .star img {
+  margin-right: 6px;
+}
+
+.tours-bar .tour h5 {
+  padding: 18px 10px;
+  background-color: #F9D44A;
+  border-radius: 13.5px;
+}
+
+.tours-bar .night-forest {
+  position: relative;
+}
+
+.tours-bar .blur-1 {
+  position: absolute;
+  border-radius: 17px;
+  filter: blur(17px);
+  top: 0;
+  right: 0;
+  z-index: -1;
+}
+
+.tours-bar img.img-tour {
+  border-radius: 17px;
+}
+
+.tours-bar .flat-adventures {
+  position: relative;
+}
+
+.tours-bar .blur-2 {
+  position: absolute;
+  border-radius: 17px;
+  filter: blur(17px);
+  top: 0;
+  right: 0;
+  z-index: -1;
 }
 
 
@@ -422,6 +498,7 @@ body {
   line-height: 26px;
   color: #18333E;
   max-width: 337px;
+  opacity: 0.7;
 }
 
 .features-place .book {
@@ -463,15 +540,75 @@ body {
   border-radius: 30.5px;
 }
 
-
-
-
-
-
 .main .place-brick-list {
   height: 360px;
-  background-color: burlywood;
 }
+
+.place-brick-list .travel {
+  display: flex;
+  align-items: center;
+  padding-bottom: 42px;
+  position: relative;
+
+}
+
+.place-brick-list .img-travel {
+  border-radius: 25px;
+  margin-right: 18px;
+}
+
+.place-brick-list .blur {
+  position: absolute;
+  top: 0;
+  border-radius: 25px;
+  filter: blur(17px);
+  z-index: -1;
+}
+
+.place-brick-list .travel h3 {
+  font-family: 'Baloo 2';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 35px;
+  color: #18333E;
+  margin: 0;
+  padding-bottom: 4px;
+}
+
+.place-brick-list .location {
+  display: flex;
+  align-items: center;
+}
+
+.place-brick-list .location p {
+  padding-left: 7px;
+  font-family: 'Baloo 2';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+  color: #18333E;
+  opacity: 0.7;
+  margin: 0;
+}
+
+.place-brick-list .heard {
+  padding: 15px;
+  border-radius: 100%;
+  background: #E9F1FA;
+  backdrop-filter: blur(2px);
+  margin-left: 53px;
+}
+
+
+
+
+
+
+
+
+
 
 @media (max-width: 944px) {
   .main-wrapper {
