@@ -7,6 +7,7 @@ body {
   width: 1356px;
   height: 100%;
   margin: auto;
+  background-color: #F2F8FD;
 }
 
 .wrapper {
@@ -119,14 +120,50 @@ body {
   right: -5px;
 }
 
-
-
-
-
 .sidebar {
-  background-color: beige;
-  border: 5px solid burlywood;
+  margin-top: 49px;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
 }
+
+.sidebar .row {
+  margin-bottom: 20px;
+}
+
+.sidebar .row a {
+  display: flex;
+  align-items: center;
+}
+
+.sidebar a img {
+  margin-right: 14px;
+}
+
+.sidebar p {
+  font-family: var(--serif);
+  color: var(--color);
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+  margin: 0;
+}
+
+.sidebar .logout {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.sidebar .logout a {
+  display: flex;
+  align-items: center;
+}
+
+.sidebar .logout img {
+  padding-right: 18px;
+}
+
 
 .main {
   background-color: lightblue;
