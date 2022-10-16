@@ -1,0 +1,6 @@
+@media (width <=1356px) and (height < 570px) {
+  .sidebar {
+    position: sticky;
+    top: calc(100vh - 500px);
+  }
+}

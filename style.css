@@ -65,9 +65,17 @@ body {
   align-items: center;
 }
 
+.header .logo {
+display: flex;
+}
+
 .header img.logo {
   width: 62px;
   height: 63px;
+}
+
+.header .search-bar {
+  display: flex;
 }
 
 .header form {
@@ -101,6 +109,11 @@ body {
 
 .header img.filter {
   margin-right: 84px;
+}
+
+.header .user-bar {
+  display: flex;
+  align-items: center;
 }
 
 .header img.location {
@@ -140,14 +153,17 @@ body {
 }
 
 .sidebar {
-  margin-top: 49px;
+  position: fixed;
+  top: 131px;
+  height: calc(100vh - 173px);
+  padding-top: 3.7vh;
   display: flex;
   justify-content: space-between;
   flex-direction: column;
 }
 
 .sidebar .row {
-  margin-bottom: 20px;
+  margin: 8px 0;
 }
 
 .sidebar .row a {
@@ -170,8 +186,8 @@ body {
 }
 
 .sidebar .logout {
-  padding-top: 20px;
-  padding-bottom: 20px;
+  padding-top: 4.5vh;
+  padding-bottom: 3.9vh;
 }
 
 .sidebar .logout a {
@@ -195,7 +211,7 @@ body {
 }
 
 .discover-world .column h2 {
-  font-family: var(--color);
+  font-family: var(--serif);
   font-style: normal;
   font-weight: 600;
   font-size: 30px;
@@ -226,7 +242,6 @@ body {
   display: flex;
   justify-content: space-between;
   gap: 26px;
-  overflow-x: hidden;
 }
 
 .discover-world .game {
