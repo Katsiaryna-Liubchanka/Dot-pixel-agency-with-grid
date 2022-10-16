@@ -1,0 +1,73 @@
+@media (max-width: 1110px) {
+
+
+  body {
+    width: 1110px;
+  }
+
+  .wrapper {
+    margin: 23px 25px;
+  }
+
+  .header form {
+    margin-right: 16px;
+  }
+
+  .header input {
+    width: 397px;
+  }
+
+  .main-wrapper {
+    display: grid;
+    grid-template-columns: 467px 1fr;
+    grid-template-rows: 538px 1fr 1fr;
+  }
+
+  .discover-world .game:last-child {
+    display: none;
+  }
+
+  .event-timeline .date:nth-last-child(1) {
+    display: none;
+  }
+
+  .event-timeline .date:nth-last-child(2) {
+    display: none;
+  }
+
+  .main .tours-bar {
+    width: 466px;
+  }
+
+  .tours-bar .tour {
+    padding: 0;
+    width: 118px;
+    position: relative;
+  }
+
+  .tours-bar img.img-tour {
+    width: 119px;
+    height: 118px;
+  }
+
+  .tours-bar .blur-3 {
+    display: block;
+    width: 118px;
+    height: 118px;
+    border-radius: 17px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: -1;
+    filter: blur(17px);
+
+  }
+
+  .tours-bar .names {
+    display: none;
+  }
+
+  .tours-bar .tour h5 {
+    display: none;
+  }
+}

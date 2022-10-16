@@ -66,7 +66,7 @@ body {
 }
 
 .header .logo {
-display: flex;
+  display: flex;
 }
 
 .header img.logo {
@@ -76,6 +76,15 @@ display: flex;
 
 .header .search-bar {
   display: flex;
+}
+
+.search-bar input::placeholder {
+  font-family: var(--serif);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: var(--color);
 }
 
 .header form {
@@ -114,6 +123,7 @@ display: flex;
 .header .user-bar {
   display: flex;
   align-items: center;
+  justify-content: end;
 }
 
 .header img.location {
@@ -313,6 +323,10 @@ display: flex;
   padding: 11px 23px;
   background-color: var(--color);
   border-radius: 25px;
+}
+
+.tours-bar .blur-3 {
+  display: none;
 }
 
 .tours-bar .names {
