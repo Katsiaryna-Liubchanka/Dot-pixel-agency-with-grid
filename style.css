@@ -270,7 +270,7 @@ body {
 .discover-world .blur {
   filter: blur(17px);
   position: absolute;
-  top: ;
+  top: 33px;
   right: 0;
   z-index: -1;
 }

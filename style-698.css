@@ -1,7 +1,25 @@
 @media (max-width: 698px) {
+
+  body {
+    max-width: 698px;
+  }
+
+  .header {
+    width: 650px;
+  }
+
+  .grid {
+    grid-template-columns: 140px 1fr;
+    grid-template-rows: 174px 1fr;
+  }
+
+  .header input {
+    width: 397px;
+  }
+
   .main-wrapper {
     grid-template-columns: 1fr;
-    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 539px 201px 538px 360px 119px;
     gap: 42px;
     grid-template-areas:
       'discover-world'
@@ -10,4 +28,100 @@
       'place-brick-list'
       'tours-bar'
   }
+
+
+  .discover-world .game:last-child {
+    display: none;
+  }
+
+  .event-timeline {
+    width: 467px;
+  }
+
+  .event-timeline .date:nth-last-child(1) {
+    display: none;
+  }
+
+  .event-timeline .date:nth-last-child(2) {
+    display: none;
+  }
+
+  .features-place {
+    width: 466px;
+  }
+
+  .features-place img.brazil {
+    width: 466px;
+    height: 290px;
+  }
+
+
+  .features-place .images .blur {
+    width: 466px;
+    height: 290px;
+  }
+
+  .features-place .book {
+    padding-top: 30px;
+  }
+
+  .main .place-brick-list {
+    width: 466px;
+  }
+
+  .place-brick-list .travel {
+    justify-content: space-around;
+  }
+
+  .place-brick-list .blur {
+    top: 0;
+    left: 25px;
+  }
+
+  .place-brick-list .travel:last-child {
+    display: none;
+  }
+
+  .main .tours-bar {
+    width: 466px;
+  }
+
+  .tours-bar .tour {
+    padding: 0;
+    width: 118px;
+    position: relative;
+  }
+
+  .tours-bar .tour img.img-tour {
+    width: 119px;
+    height: 119px;
+
+  }
+
+  .tours-bar img.img-tour {
+    width: 119px;
+    height: 118px;
+  }
+
+  .tours-bar .blur-3 {
+    display: block;
+    width: 118px;
+    height: 118px;
+    border-radius: 17px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: -1;
+    filter: blur(17px);
+
+  }
+
+  .tours-bar .names {
+    display: none;
+  }
+
+  .tours-bar .tour h5 {
+    display: none;
+  }
+
 }
