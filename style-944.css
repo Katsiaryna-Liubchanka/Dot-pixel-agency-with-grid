@@ -1,4 +1,56 @@
 @media (max-width: 944px) {
+
+  body {
+    max-width: 944px;
+  }
+
+  .grid {
+    grid-template-columns: 140px 1fr;
+    grid-template-rows: 174px 1fr;
+  }
+
+  .header {
+    width: 894px;
+    height: 100%;
+    display: grid;
+    grid-template-columns: 140px 1fr;
+    grid-template-rows: 66px 66px;
+    gap: 42px;
+    grid-template-areas:
+      'logo user-bar'
+      'search-bar search-bar'
+  }
+
+  .logo {
+    grid-area: logo;
+  }
+
+  .user-bar {
+    grid-area: user-bar;
+  }
+
+  .search-bar {
+    grid-area: search-bar;
+  }
+
+  .search-bar {
+    display: flex;
+    justify-content: end;
+  }
+
+  .header input {
+    width: 634px;
+  }
+
+  .header img.filter {
+    margin-right: 0;
+  }
+
+  .sidebar {
+    top: 246px;
+  }
+
+
   .main-wrapper {
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 539px 201px 518px 119px;
@@ -9,4 +61,96 @@
       'features-place place-brick-list'
       'tours-bar tours-bar'
   }
+
+  .discover-world .game:last-child {
+    display: block;
+  }
+
+  .discover-world {
+    width: 713px;
+  }
+
+  .event-timeline {
+    width: 713px;
+  }
+
+  .discover-world .game:last-child {
+    display: block;
+  }
+
+  .event-timeline .date:nth-last-child(1) {
+    display: block;
+  }
+
+  .event-timeline .date:nth-last-child(2) {
+    display: block;
+  }
+
+  .main .tours-bar {
+    width: 713px;
+  }
+
+  .tours-bar .tours {
+    justify-content: start;
+    gap: 20px;
+  }
+
+  .tours-bar .tour {
+    display: flex;
+    align-items: center;
+    width: 390px;
+    padding: 11px 23px;
+  }
+
+  .tours-bar .tour img.img-tour {
+    width: 74px;
+    height: 78px;
+  }
+
+  .tours-bar .blur-3 {
+    display: none;
+  }
+
+  .tours-bar .names {
+    display: block;
+  }
+
+  .tours-bar .tour h5 {
+    display: block;
+  }
+
+  .features-place {
+    width: 326px;
+  }
+
+  .features-place img.brazil {
+    width: 324px;
+    height: 290px;
+  }
+
+  .features-place .images .blur {
+    width: 324px;
+    height: 290px;
+  }
+
+  .features-place .images img.ribbon {
+    padding: 0;
+  }
+
+  .features-place .book {
+    padding-top: 0;
+  }
+
+  .place-brick-list {
+    width: 344px;
+  }
+
+  .place-brick-list .heard {
+    margin-left: 30px;
+  }
+
+  .place-brick-list .travel:last-child {
+    display: flex;
+  }
+
 }

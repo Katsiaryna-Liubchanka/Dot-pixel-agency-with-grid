@@ -250,7 +250,6 @@ body {
 
 .discover-world .games {
   display: flex;
-  justify-content: space-between;
   gap: 26px;
 }
 
@@ -574,7 +573,10 @@ body {
   align-items: center;
   padding-bottom: 42px;
   position: relative;
+}
 
+.place-brick-list .travel:last-child {
+  display: none;
 }
 
 .place-brick-list .img-travel {
