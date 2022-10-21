@@ -1,0 +1,58 @@
+@media (min-width: 1357px) {
+
+  body {
+    padding: 0 calc((100vw - 1550px) / 2);
+  }
+
+  .header input {
+    width: 668px;
+  }
+
+  .header img.filter {
+    margin-right: 111px;
+  }
+
+  .header h5 {
+    margin-right: 88px;
+  }
+
+  .main-wrapper {
+    grid-template-columns: 783px 395px;
+  }
+
+  .discover-world .game {
+    width: 241px;
+  }
+
+  img.img-game {
+    width: 241px;
+    height: 322px;
+  }
+
+  .discover-world .blur {
+    width: 241px;
+    height: 322px;
+  }
+
+  .tours-bar .tour {
+    width: 417px;
+  }
+
+  .tours-bar .names {
+    padding-right: 89px;
+  }
+
+  img.brazil {
+    width: 395px;
+    height: 290px;
+  }
+
+  .features-place .images .blur {
+    width: 395px;
+    height: 290px;
+  }
+
+  .place-brick-list .heard {
+    margin-left: 82px;
+  }
+}

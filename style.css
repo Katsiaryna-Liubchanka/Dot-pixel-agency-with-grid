@@ -4,7 +4,7 @@
 }
 
 body {
-  width: 1356px;
+  padding: 0 calc((100vw - 1306px) / 2);
   height: 100%;
   margin: auto;
   background-color: #F2F8FD;
@@ -12,7 +12,7 @@ body {
 
 .wrapper {
   height: 100%;
-  margin: 25px;
+  padding: 25px;
 }
 
 .grid {
@@ -64,6 +64,51 @@ body {
   display: flex;
   align-items: center;
 }
+
+/*кнопка
+
+#input {
+  display: none;
+}
+
+.menu__btn {
+  display: none;
+}
+
+.menu__btn {
+  display: flex;
+  align-items: center;
+  position: fixed;
+  top: 20px;
+  left: 20px;
+  width: 26px;
+  height: 26px;
+  cursor: pointer;
+  z-index: 1;
+}
+
+span,
+span::before,
+span::after {
+  display: block;
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  background-color: #616161;
+  transition-duration: .25s;
+}
+
+.menu__btn>span::before {
+  content: '';
+  top: -8px;
+}
+
+.menu__btn>span::after {
+  content: '';
+  top: 8px;
+}
+
+*/
 
 .header .logo {
   display: flex;
@@ -570,9 +615,14 @@ body {
 
 .place-brick-list .travel {
   display: flex;
+  justify-content: space-between;
   align-items: center;
   padding-bottom: 42px;
   position: relative;
+}
+
+.place-brick-list .column {
+  display: flex;
 }
 
 .place-brick-list .travel:last-child {
@@ -625,5 +675,4 @@ body {
   border-radius: 100%;
   background: #E9F1FA;
   backdrop-filter: blur(2px);
-  margin-left: 53px;
 }

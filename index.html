@@ -4,11 +4,12 @@
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1">
   <link rel="stylesheet" href="style.css">
   <link rel="stylesheet" href="reset.css">
+  <link rel="stylesheet" href="style-1600.css">
   <link rel="stylesheet" href="style-1356.css">
-  <link rel="stylesheet" href="style-1100.css">
+  <link rel="stylesheet" href="style-1110.css">
   <link rel="stylesheet" href="style-944.css">
   <link rel="stylesheet" href="style-698.css">
   <link rel="stylesheet" href="style-516.css">
@@ -24,11 +25,19 @@
     <div class="grid">
       <div class="header">
 
+        <!--
+        <input id="input" type="checkbox" />
+        <label class="menu__btn" for="input">
+          <span></span>
+        </label>
+        -->
+
         <div class="logo">
           <a href="">
             <img class="logo" src="img/Logo.png" alt="">
           </a>
         </div>
+
 
         <div class="search-bar">
           <form>
@@ -51,6 +60,7 @@
       </div>
 
       <div class="sidebar">
+
         <div class="row">
           <a href="">
             <img src="img/sidebar/sidebar-dash.png" alt="">
@@ -130,7 +140,7 @@
               <div class="games">
                 <div class="game">
                   <img class="like" src="img/main/heart (2).png" alt="">
-                  <img class="moonline" src="img/main/moonlight.png" alt="">
+                  <img class="img-game" src="img/main/moonlight.png" alt="">
                   <img class="blur" src="img/main/moonlight.png" alt="">
                   <h3>Moonlight Night</h3>
                   <div class="row">
@@ -143,7 +153,7 @@
 
                 <div class="game">
                   <img class="like" src="img/main/heart (2).png" alt="">
-                  <img src="img/main/sahara.png" alt="">
+                  <img class="img-game" src="img/main/sahara.png" alt="">
                   <img class="blur" src="img/main/sahara.png" alt="">
                   <h3>Sahara Desert</h3>
                   <div class="row">
@@ -156,7 +166,7 @@
 
                 <div class="game">
                   <img class="like" src="img/main/heart (2).png" alt="">
-                  <img src="img/main/night _camping.png" alt="">
+                  <img class="img-game" src="img/main/night _camping.png" alt="">
                   <img class="blur" src="img/main/night _camping.png" alt="">
                   <h3>Night Camping</h3>
                   <div class="row">
@@ -278,56 +288,64 @@
 
           <section class="place-brick-list">
             <div class="travel">
-              <img class="img-travel" src="img/footer/nature lake.png" alt="">
-              <img class="blur" src="img/footer/nature lake.png" alt="">
-              <div class="name">
-                <h3>Nature Lake</h3>
-                <div class="location">
-                  <img src="img/main/location.png" alt="">
-                  <p> Afghanistan</p>
+              <div class="column">
+                <img class="img-travel" src="img/footer/nature lake.png" alt="">
+                <img class="blur" src="img/footer/nature lake.png" alt="">
+                <div class="name">
+                  <h3>Nature Lake</h3>
+                  <div class="location">
+                    <img src="img/main/location.png" alt="">
+                    <p> Afghanistan</p>
+                  </div>
                 </div>
               </div>
               <img class="heard" src="img/main/heart -blue.png" alt="">
             </div>
 
             <div class="travel">
-              <img class="img-travel" src="img/footer/camel ride.png" alt="">
-              <img class="blur" src="img/footer/camel ride.png" alt="">
-              <div class="name">
-                <h3>Camel Ride</h3>
-                <div class="location">
-                  <img src="img/main/location.png" alt="">
-                  <p>Srilanka</p>
+              <div class=column>
+                <img class="img-travel" src="img/footer/camel ride.png" alt="">
+                <img class="blur" src="img/footer/camel ride.png" alt="">
+                <div class="name">
+                  <h3>Camel Ride</h3>
+                  <div class="location">
+                    <img src="img/main/location.png" alt="">
+                    <p>Srilanka</p>
+                  </div>
                 </div>
+                </div>
+                <img class="heard" src="img/main/heart -blue.png" alt="">
               </div>
-              <img class="heard" src="img/main/heart -blue.png" alt="">
-            </div>
 
-            <div class="travel">
-              <img class="img-travel" src="img/footer/mid forest.png" alt="">
-              <img class="blur" src="img/footer/mid forest.png" alt="">
-              <div class="name">
-                <h3>Mid Forest</h3>
-                <div class="location">
-                  <img src="img/main/location.png" alt="">
-                  <p>Brazil</p>
+              <div class="travel">
+                <div class=column>
+                  <img class="img-travel" src="img/footer/mid forest.png" alt="">
+                  <img class="blur" src="img/footer/mid forest.png" alt="">
+                  <div class="name">
+                    <h3>Mid Forest</h3>
+                    <div class="location">
+                      <img src="img/main/location.png" alt="">
+                      <p>Brazil</p>
+                    </div>
+                  </div>
                 </div>
+                <img class="heard" src="img/main/heart -blue.png" alt="">
               </div>
-              <img class="heard" src="img/main/heart -blue.png" alt="">
-            </div>
 
-            <div class="travel">
-              <img class="img-travel" src="img/footer/yellow valley.png" alt="">
-              <img class="blur" src="img/footer/yellow valley.png" alt="">
-              <div class="name">
-                <h3>Yellow Vall</h3>
-                <div class="location">
-                  <img src="img/main/location.png" alt="">
-                  <p>Brazil</p>
+              <div class="travel">
+                <div class=column>
+                  <img class="img-travel" src="img/footer/yellow valley.png" alt="">
+                  <img class="blur" src="img/footer/yellow valley.png" alt="">
+                  <div class="name">
+                    <h3>Yellow Vall</h3>
+                    <div class="location">
+                      <img src="img/main/location.png" alt="">
+                      <p>Brazil</p>
+                    </div>
+                  </div>
                 </div>
+                <img class="heard" src="img/main/heart -blue.png" alt="">
               </div>
-              <img class="heard" src="img/main/heart -blue.png" alt="">
-            </div>
           </section>
         </div>
 

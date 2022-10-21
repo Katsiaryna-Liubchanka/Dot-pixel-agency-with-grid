@@ -1,7 +1,7 @@
-@media (max-width: 698px) {
+@media (max-width: 697.98px) {
 
   body {
-    max-width: 698px;
+    padding: 0 calc((100vw - 648px) / 2);
   }
 
   .header {
@@ -61,21 +61,16 @@
     height: 290px;
   }
 
+  .features-place .images img.ribbon {
+    right: 92px;
+  }
+
   .features-place .book {
     padding-top: 30px;
   }
 
   .main .place-brick-list {
     width: 466px;
-  }
-
-  .place-brick-list .travel {
-    justify-content: space-around;
-  }
-
-  .place-brick-list .blur {
-    top: 0;
-    left: 25px;
   }
 
   .place-brick-list .travel:last-child {
@@ -122,6 +117,10 @@
 
   .tours-bar .tour h5 {
     display: none;
+  }
+
+  .tours-bar .tours {
+    justify-content: space-between;
   }
 
 }

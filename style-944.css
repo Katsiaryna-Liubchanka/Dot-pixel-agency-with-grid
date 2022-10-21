@@ -1,7 +1,7 @@
-@media (max-width: 944px) {
+@media (max-width: 943.98px) {
 
   body {
-    max-width: 944px;
+    padding: 0 calc((100vw - 894px) / 2);
   }
 
   .grid {
@@ -143,10 +143,6 @@
 
   .place-brick-list {
     width: 344px;
-  }
-
-  .place-brick-list .heard {
-    margin-left: 30px;
   }
 
   .place-brick-list .travel:last-child {
