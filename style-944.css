@@ -1,7 +1,8 @@
-@media (max-width: 943.98px) {
+@media (width >= 944px) and (width < 1110px){
 
   body {
-    padding: 0 calc((100vw - 894px) / 2);
+    padding-left: calc((100vw - 894px) / 2);
+    padding-right: calc((100vw - 894px) / 2 -20px);
   }
 
   .grid {
@@ -18,19 +19,11 @@
     gap: 42px;
     grid-template-areas:
       'logo user-bar'
-      'search-bar search-bar'
+      '. search-bar'
   }
 
-  .logo {
-    grid-area: logo;
-  }
-
-  .user-bar {
-    grid-area: user-bar;
-  }
-
-  .search-bar {
-    grid-area: search-bar;
+  .header form {
+    margin-left: 0;
   }
 
   .search-bar {
@@ -45,11 +38,6 @@
   .header img.filter {
     margin-right: 0;
   }
-
-  .sidebar {
-    top: 246px;
-  }
-
 
   .main-wrapper {
     grid-template-columns: 1fr 1fr;

@@ -1,11 +1,6 @@
-@media (width <=1356px) and (height < 570px) {
+@media (width >= 1356px) {
 
   body {
     padding: 0 calc((100vw - 1306px) / 2);
-  }
-
-  .sidebar {
-    position: sticky;
-    top: calc(100vh - 500px);
   }
 }

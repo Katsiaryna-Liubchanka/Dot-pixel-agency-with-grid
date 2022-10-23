@@ -1,12 +1,30 @@
-@media (max-width: 697.98px) {
+@media (width >= 698px) and (width < 944px) {
 
   body {
-    padding: 0 calc((100vw - 648px) / 2);
+    padding-left: calc((100vw - 648px) / 2);
+    padding-right: calc((100vw - 648px) / 2 - 20px);
   }
 
   .header {
     width: 650px;
+    height: 100%;
+    display: grid;
+    grid-template-columns: 140px 1fr;
+    grid-template-rows: 66px 66px;
+    gap: 42px;
+    grid-template-areas:
+      'logo user-bar'
+      '. search-bar'
   }
+
+  .header form {
+    margin-left: 0;
+  }
+
+  .header img.filter {
+    margin-right: 0;
+  }
+
 
   .grid {
     grid-template-columns: 140px 1fr;
@@ -122,5 +140,5 @@
   .tours-bar .tours {
     justify-content: space-between;
   }
-
 }
+

@@ -1,11 +1,12 @@
-@media (max-width: 1110px) {
+@media (width >= 1110px) and (width < 1356px) {
 
   body {
-    padding: 0 calc((100vw - 1060px) / 2);
+    padding-left: calc((100vw - 1060px) / 2);
+    padding-right: calc((100vw - 1060px) / 2 - 20px);
   }
 
   .wrapper {
-    padding: 23px 25px;
+    padding: 23px 0;
   }
 
   .header form {
