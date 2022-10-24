@@ -239,7 +239,9 @@ span::after {
 
 .sidebar .row {
   margin: 8px 0;
+  transition: all 1s;
 }
+
 
 .sidebar .row a {
   display: flex;
@@ -250,6 +252,14 @@ span::after {
   margin-right: 14px;
 }
 
+.sidebar .row:hover img {
+  position: absolute;
+  background-color: #F9D44A;
+  border-radius: 0px 31.5px 31.5px 0px;
+  margin: 0;
+  padding: 22px 22px 22px 0;
+}
+
 .sidebar p {
   font-family: var(--serif);
   color: var(--color);
@@ -258,6 +268,10 @@ span::after {
   font-size: 16px;
   line-height: 26px;
   margin: 0;
+}
+
+.sidebar .row:hover p {
+  transform: translate(62px, 0);
 }
 
 .sidebar .logout {
@@ -273,6 +287,7 @@ span::after {
 .sidebar .logout img {
   padding-right: 18px;
 }
+
 
 .main-wrapper {
   display: grid;
