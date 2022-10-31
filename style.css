@@ -68,6 +68,10 @@ body {
   grid-area: tours-bar;
 }
 
+.menu-burger {
+  grid-area: menu-burger;
+}
+
 .main {
   grid-area: content;
 }
@@ -78,26 +82,15 @@ body {
   align-items: center;
 }
 
-/*кнопка
-
-#input {
-  display: none;
-}
-
-.menu__btn {
-  display: none;
+.menu-burger {
+  visibility: hidden;
 }
 
 .menu__btn {
   display: flex;
   align-items: center;
-  position: fixed;
-  top: 20px;
-  left: 20px;
-  width: 26px;
-  height: 26px;
   cursor: pointer;
-  z-index: 1;
+  visibility: hidden;
 }
 
 span,
@@ -105,7 +98,7 @@ span::before,
 span::after {
   display: block;
   position: absolute;
-  width: 100%;
+  width: 26px;
   height: 2px;
   background-color: #616161;
   transition-duration: .25s;
@@ -120,8 +113,6 @@ span::after {
   content: '';
   top: 8px;
 }
-
-*/
 
 .header .logo {
   display: flex;
@@ -147,7 +138,7 @@ span::after {
 
 .header form {
   position: relative;
-  margin-left: 123px;
+  margin-left: 93px;
   margin-right: 25px;
 }
 
@@ -241,7 +232,6 @@ span::after {
   margin: 8px 0;
   transition: all 1s;
 }
-
 
 .sidebar .row a {
   display: flex;

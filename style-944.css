@@ -10,6 +10,17 @@
     grid-template-rows: 174px 1fr;
   }
 
+  /* .header {
+    height: 100%;
+    display: grid;
+    grid-template-columns: 61px 1fr;
+    grid-template-rows: 66px 66px;
+    gap: 42px;
+    grid-template-areas:
+      'logo menu-burger user-bar'
+      '. . search-bar'
+  }  */
+
   .header {
     width: 894px;
     height: 100%;

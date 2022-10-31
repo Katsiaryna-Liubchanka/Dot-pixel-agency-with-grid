@@ -6,15 +6,18 @@
   }
 
   .header {
-    width: 650px;
     height: 100%;
     display: grid;
-    grid-template-columns: 140px 1fr;
+    grid-template-columns: 61px 1fr;
     grid-template-rows: 66px 66px;
     gap: 42px;
     grid-template-areas:
-      'logo user-bar'
-      '. search-bar'
+      'logo menu-burger user-bar'
+      '. . search-bar'
+  } 
+
+  .menu-burger {
+    visibility: hidden;
   }
 
   .header form {
@@ -27,7 +30,7 @@
 
 
   .grid {
-    grid-template-columns: 140px 1fr;
+    grid-template-columns: 130px 1fr;
     grid-template-rows: 174px 1fr;
   }
 
@@ -80,7 +83,7 @@
   }
 
   .features-place .images img.ribbon {
-    right: 92px;
+    right: 65px;
   }
 
   .features-place .book {

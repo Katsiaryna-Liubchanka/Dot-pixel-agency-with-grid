@@ -1,1 +1,174 @@
-@media (width <=516px) {}
+@media (width >=516px) and (width < 698px) {
+  body {
+    padding-left: calc((100vw - 466px) / 2);
+    padding-right: calc((100vw - 466px) / 2 - 20px);
+  }
+
+  .grid {
+    grid-template-columns: 140px 1fr;
+    grid-template-rows: 1fr;
+    grid-template-areas:
+      'header'
+      'content'
+  }
+
+  .menu__btn {
+    visibility: visible;
+  }
+
+  :not(:checked)+.sidebar {
+    transform: translateX(calc(-100% - (100vw - 466px) / 2));
+  }
+
+  .sidebar {
+    background-color: #F2F8FD;
+    z-index: 3;
+    position: fixed;
+    transform: (calc(100% + (100vw - 466px) / 2));
+    transition: all 0.5s;
+  }
+
+  .header {
+    height: 100%;
+    display: grid;
+    grid-template-columns: 30px 50px 305px;
+    grid-template-rows: 66px 66px;
+    gap: 42px;
+    grid-template-areas:
+      'menu-burger logo user-bar'
+      'search-bar search-bar search-bar'
+  }
+
+  .header form {
+    margin-left: 0;
+    margin-right: 13px;
+  }
+
+  .header img.filter {
+    margin-right: 0;
+  }
+
+  .header h5 {
+    margin-right: 35px;
+  }
+
+
+  .grid {
+    grid-template-columns: 140px 1fr;
+    grid-template-rows: 174px 1fr;
+  }
+
+  .header input {
+    width: 397px;
+  }
+
+  .header .user-bar {
+    justify-content: start;
+  }
+
+  .main-wrapper {
+    grid-template-columns: 1fr;
+    grid-template-rows: 539px 201px 538px 360px 119px;
+    gap: 42px;
+    grid-template-areas:
+      'discover-world'
+      'event-timeline'
+      'features-place'
+      'place-brick-list'
+      'tours-bar'
+  }
+
+
+  .discover-world .game:last-child {
+    display: none;
+  }
+
+  .event-timeline {
+    width: 467px;
+  }
+
+  .event-timeline .date:nth-last-child(1) {
+    display: none;
+  }
+
+  .event-timeline .date:nth-last-child(2) {
+    display: none;
+  }
+
+  .features-place {
+    width: 466px;
+  }
+
+  .features-place img.brazil {
+    width: 466px;
+    height: 290px;
+  }
+
+
+  .features-place .images .blur {
+    width: 466px;
+    height: 290px;
+  }
+
+  .features-place .images img.ribbon {
+    right: 92px;
+  }
+
+  .features-place .book {
+    padding-top: 30px;
+  }
+
+  .main .place-brick-list {
+    width: 466px;
+  }
+
+  .place-brick-list .travel:last-child {
+    display: none;
+  }
+
+  .main .tours-bar {
+    width: 466px;
+  }
+
+  .tours-bar .tour {
+    padding: 0;
+    width: 118px;
+    position: relative;
+  }
+
+  .tours-bar .tour img.img-tour {
+    width: 119px;
+    height: 119px;
+
+  }
+
+  .tours-bar img.img-tour {
+    width: 119px;
+    height: 118px;
+  }
+
+  .tours-bar .blur-3 {
+    display: block;
+    width: 118px;
+    height: 118px;
+    border-radius: 17px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: -1;
+    filter: blur(17px);
+
+  }
+
+  .tours-bar .names {
+    display: none;
+  }
+
+  .tours-bar .tour h5 {
+    display: none;
+  }
+
+  .tours-bar .tours {
+    justify-content: space-between;
+  }
+}
